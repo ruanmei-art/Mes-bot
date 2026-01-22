@@ -1,0 +1,32 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Messenger bot with message statistics and auto-reply",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup": "npm install",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "statistics",
+    "facebook",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
